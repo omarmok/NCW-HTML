@@ -1,0 +1,94 @@
+.innerhero{
+    padding-top: 120px;
+    padding-bottom: 109px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, #fdf9f8 50%, rgb(43 43 45) 50%);
+}
+
+.innerhero .container{
+    padding:0;
+}
+
+.innerhero .breadcrumb ol{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+
+.innerhero .breadcrumb ol li a {
+    background: url(../images/breadcrumb-arrow.svg) no-repeat center left transparent;
+    display: block;
+    padding-left: 19px;
+    margin-left: 8px;
+    color: #7a7d85;
+}
+
+
+.innerhero .breadcrumb ol li:first-child {
+    background: url(../images/breadcrumb.svg) no-repeat center right transparent;
+    padding-right: 21px;
+}
+
+.innerhero h3{
+    color:#fff;
+}
+
+.innerdetailsImage img{
+    border-radius: 10px 10px 0 0;
+}
+
+.innnerdetailsP{
+    color: black;
+    background: white;
+    box-shadow: 0px 8px 20px #f3f1f0;
+
+
+}
+
+.detailsDate{
+    background: #b45434;
+    color: #fff;
+    padding: 15px;
+}
+
+.innnerdetailsP p{
+    font-size: 18px;
+    padding: 15px;
+}
+
+
+.pagination{
+    justify-content: center;
+}
+
+.page-link{
+    color: #b45434;
+}
+
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #b45434;
+    border-color: #b45434;
+}
+
+
+.innnerdetailsP  button.btn.btn-link.collapsed {
+    background: rgb(33 37 41);
+}
+
+.innnerdetailsP .btn-link{
+    background-color: #b45434;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    align-items: center;
+}
+
+.innnerdetailsP .btn-link i{
+    background: rgba(255 ,255 ,255,13%);
+    padding: 15px;
+    border-radius: 10px;
+}
